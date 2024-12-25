@@ -1,0 +1,125 @@
+.medicine-details-main-container > div{
+    text-align: left;
+    font-size: 15px;
+    color: #5c5c5b;
+}
+
+.medicine-details-main-container > div > h1{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    line-height: 3;
+}
+
+.medicine-details-main-container > div > p{
+    margin: 0;
+    line-height: 1.5;
+}
+
+.medicine-details-main-container > div > ul {
+    padding-left: 20px;
+    list-style-type: disc !important;
+}
+
+.medicine-details-main-container > div > ul > li {
+    list-style-type: disc !important;
+}
+
+.medicine-details-main-container{
+    padding-left: 10px;
+}
+
+.medicine-details{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.medicine-head > h1{
+    color: #5c5c5b;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+.generic-medicine-main-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+}
+
+.generic-medicine-main-details > button{
+    border: 1px solid black;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.generic-medicine-main-details > button > span{
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+    font-weight: bold;
+}
+
+.generic-medicine-main-details > div{
+    text-align: left;
+    width: 50%;
+}
+
+.generic-medicine-main-details > div > h1{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.generic-medicine-main-details > div>h6{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.8;
+}
+
+.generic-medicine-main-details > div > p{
+    color: grey;
+    font-size: 13px;
+}
+
+.generic-medicine-main-details > div > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 900px){
+    .generic-medicine-main-details > div > div{
+        justify-content: space-between;
+    }
+}
+
+.generic-medicine-main-details > div > div > button{
+    background-color: #b5f5ba;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 899px){
+    .generic-medicine-main-details > div > div {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+}
+
+.generic-head{
+    font-size: 17px;
+    margin-bottom: 10px;
+}

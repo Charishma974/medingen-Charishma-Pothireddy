@@ -1,0 +1,36 @@
+.rating-component {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.rating-component>button {
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.rating-review-component{
+    width: 80%;
+    padding-left: 70px;
+    padding-top: 20px;
+    gap: 5px;
+}
+
+.rating-review-component > h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.rating-review-component > div{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
